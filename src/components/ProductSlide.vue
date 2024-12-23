@@ -71,19 +71,19 @@
         return {
           product:[
           {
-            img: new URL('/public/img/banner/mochi.jpg', import.meta.url).href,
+            img: new URL('/img/banner/mochi.jpg', import.meta.url).href,
             alt:'banner',
           },
           {
-            img:new URL('/public/img/banner/banner2.jpg', import.meta.url).href,
+            img:new URL('/img/banner/banner2.jpg', import.meta.url).href,
             alt:'banner',
           },
           {
-            img:new URL('/public/img/banner/news02.jpg', import.meta.url).href,
+            img:new URL('/img/banner/news02.jpg', import.meta.url).href,
             alt:'banner',
           },
           {
-            img:new URL('/public/img/banner/store.jpg', import.meta.url).href,
+            img:new URL('/img/banner/store.jpg', import.meta.url).href,
             alt:'banner',
           },
 

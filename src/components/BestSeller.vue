@@ -30,32 +30,32 @@
       return {
         bestSeller:[
             {
-            pic:new URL('/public/img/products/sea/flyfish.png',import.meta.url).href,
+            pic:new URL('/img/products/sea/flyfish.png',import.meta.url).href,
             title:'飛魚翅',
             price:'$150',
             },
             {
-            pic:new URL('/public/img/products/sea/crab.png',import.meta.url).href,
+            pic:new URL('/img/products/sea/crab.png',import.meta.url).href,
             title:'蔥燒小螃蟹',
             price:'$150',
             },
             {
-            pic:new URL('/public/img/products/sea/grillsquid.png',import.meta.url).href,
+            pic:new URL('/img/products/sea/grillsquid.png',import.meta.url).href,
             title:'碳燒魷魚片',
             price:'$150',
             },
             {
-            pic:new URL('/public/img/products/greenisland/john.png',import.meta.url).href,
+            pic:new URL('/img/products/greenisland/john.png',import.meta.url).href,
             title:'小卷醬',
             price:'$300',
             },
             {
-            pic:new URL('/public/img/products/deer/deer.png',import.meta.url).href,
+            pic:new URL('/img/products/deer/deer.png',import.meta.url).href,
             title:'原味鹿肉乾',
             price:'$150',
             },
             {
-            pic:new URL('/public/img/products/coral/coral1.png',import.meta.url).href,
+            pic:new URL('/img/products/coral/coral1.png',import.meta.url).href,
             title:'黑糖桂花海燕窩',
             price:'$300',
             }

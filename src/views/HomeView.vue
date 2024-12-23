@@ -109,18 +109,18 @@ export default {
     width: 900px;
     margin: 50px auto;
   }
-  .wave-container{
-      background-image: url("@/assets/img/wave.png");
-      background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 500px;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    position: absolute;
-    top: 200px;
-    padding:60px;
-    }
+  // .wave-container{
+  //     background-image: url("@/assets/img/wave.png");
+  //     background-size: cover;
+  //   background-repeat: no-repeat;
+  //   width: 100vw;
+  //   height: 500px;
+  //   margin-left: calc(-50vw + 50%);
+  //   margin-right: calc(-50vw + 50%);
+  //   position: absolute;
+  //   top: 200px;
+  //   padding:60px;
+  //   }
 }
   .best-seller{
     padding-top:100px;

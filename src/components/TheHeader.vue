@@ -4,7 +4,7 @@
       <ul>
         <li v-for="item in menu" :key="item.id">
             <router-link :to="item.link" @mouseover="item.showEnglish = true" @mouseleave="item.showEnglish = false">
-              <img v-if="item.chinese === '首頁'" src="/public/img/logo.png" :alt="item.chinese" class="logo">
+              <img v-if="item.chinese === '首頁'" src="/img/logo.png" :alt="item.chinese" class="logo">
               <p v-else>{{ item.showEnglish ? item.english : item.chinese }}</p>
             </router-link>
         </li>

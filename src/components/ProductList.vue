@@ -1,7 +1,7 @@
 <template>
 <div class="list" v-for="category in products" :key="category.category">
     <div class="product" v-for="item in category.items" :key="item.id">
-        <img :src="item.pic" :alt="item.title"/>
+        <img :src="item.pic" :alt="item.title">
         <h5>{{ item.title }}</h5>
         <p>{{ item.price }}</p>
         <div class="check-button">
@@ -32,7 +32,7 @@
             <hr />
             <div class="popup-content">
                 <h6>成分介紹</h6>
-                <img :src="popupData.content" :alt="popupData.title"/>
+                <img :src="popupData.content" :alt="popupData.title">
             </div>
         </div>
     </div>

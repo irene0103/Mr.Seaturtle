@@ -56,28 +56,28 @@
       return {
         bestReview:[
             {
-            pic:new URL('/public/img/people1.png',import.meta.url).href,
+            pic:new URL('/img/people1.png',import.meta.url).href,
             name:'Theresa Webb',
             date:'2 weeks  ago',
             rate:3,
             comments:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
             },
             {
-            pic:new URL('/public/img/people1.png',import.meta.url).href,
+            pic:new URL('/img/people1.png',import.meta.url).href,
             name:'Theresa Webb',
             date:'2 weeks  ago',
             rate:4,
             comments:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
             },
             {
-            pic:new URL('/public/img/people1.png',import.meta.url).href,
+            pic:new URL('/img/people1.png',import.meta.url).href,
             name:'Theresa Webb',
             date:'2 weeks  ago',
             rate:5,
             comments:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
             },
             {
-            pic:new URL('/public/img/people1.png',import.meta.url).href,
+            pic:new URL('/img/people1.png',import.meta.url).href,
             name:'Theresa Webb',
             date:'2 weeks  ago',
             rate:3,
