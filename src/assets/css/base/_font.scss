@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/src/assets/font/Oradano.ttf') format('truetype');
+  }
+
+$font-size-base: 16px;
+
+$h1-size: $font-size-base * 3; // 48px
+$h2-size: $font-size-base * 2.75;   // 44px
+$h3-size: $font-size-base * 1.75; // 28px
+$h4-size: $font-size-base * 1.5;  // 24px
+$h5-size: $font-size-base * 1.25; // 20px
+$h6-size: $font-size-base * 1.125; // 18px;
+
+// 標題樣式
+@mixin heading-style($size, $weight: 600, $line-height: 1.2) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line-height;
+  margin: 0 0 0.5em; // 底部間距
+}
+
+// 全局標題設定
+h1 {
+  @include heading-style($h1-size);
+}
+h2 {
+  @include heading-style($h2-size);
+}
+h3 {
+  @include heading-style($h3-size);
+}
+h4 {
+  @include heading-style($h4-size);
+}
+h5 {
+  @include heading-style($h5-size);
+}
+h6 {
+  @include heading-style($h6-size);
+}
+
+// RWD
+@media (max-width: 768px) {
+  $scale-factor: 0.85; // 縮小比例
+
+  h1 {
+    font-size: $h1-size * $scale-factor;
+  }
+  h2 {
+    font-size: $h2-size * $scale-factor;
+  }
+  h3 {
+    font-size: $h3-size * $scale-factor;
+  }
+  h4 {
+    font-size: $h4-size * $scale-factor;
+  }
+  h5 {
+    font-size: $h5-size * $scale-factor;
+  }
+  h6 {
+    font-size: $h6-size * $scale-factor;
+  }
+}

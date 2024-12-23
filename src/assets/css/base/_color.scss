@@ -1,0 +1,23 @@
+// 定義主題顏色變數
+$primary-color: #ffffff;  // 主色
+$secondary-color: #2ecc71; // 次色
+$accent-color: #e74c3c;   // 強調色
+$dark-color: #000000;     // 深色
+$light-color: #61ba56;    // 淺色
+$light-dec-color: #E1FCD5; //次要淺色
+
+// 定義文字顏色
+$text-color: rgb(40, 110, 64);         // 主要文字
+$text-color-light: $light-color;  // 亮色文字
+
+// 定義背景顏色
+$background-color: $light-color;   // 預設背景
+$background-dark: $dark-color;     // 深色背景
+$background-primary: $primary-color; // 主色背景
+
+// 定義邊框顏色
+$border-color: #b4b4b4;     // 預設邊框
+
+@mixin border($width, $style, $color) {
+    border: $width solid $border-color;
+  }
