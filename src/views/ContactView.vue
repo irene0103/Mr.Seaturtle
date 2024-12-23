@@ -9,7 +9,7 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.6783026354215!2d121.46781137465965!3d22.665779879425482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346f8db368d935ed%3A0x951c565dca05e87a!2z5rW36b6c5YWI55Sf5Ly05omL56au!5e0!3m2!1szh-TW!2stw!4v1733907226378!5m2!1szh-TW!2stw" width="500" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div v-else-if="currentView === 'store'">
-      <img src="@/assets/img/store.png" alt="store">
+      <img src="/public/img/store.png" alt="store">
     </div>
     <div class="tab">
           <button id="googleMap" @click="showGoogleMap">Google Map</button> |

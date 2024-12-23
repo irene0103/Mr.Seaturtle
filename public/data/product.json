@@ -5,19 +5,19 @@
         "items": [
             {
                 "id": 1001,
-                "pic": "/src/assets/img/products/machi/machi.png",
+                "pic": "/public/img/products/machi/machi.png",
                 "title": "原味海草麻糬",
                 "price": "$150",
                 "intro":"海草麻糬是使用天然海藻製作的傳統點心，口感Q彈，香甜不膩，帶有清新的海洋風味。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
             },
             {
                 "id": 1002,
-                "pic": "/src/assets/img/products/machi/machi.png",
+                "pic": "/public/img/products/machi/machi.png",
                 "title": "綜合海草麻糬",
                 "price": "$150",
                 "intro":"海草麻糬是使用天然海藻製作的傳統點心，口感Q彈，香甜不膩，帶有清新的海洋風味。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -28,56 +28,56 @@
         "items": [
             {
                 "id": 2001,
-                "pic": "/src/assets/img/products/crispy/fishskin.png",
+                "pic": "/public/img/products/crispy/fishskin.png",
                 "title": "原味飛魚餅",
                 "price": "$125",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 2002,
-                "pic": "/src/assets/img/products/crispy/fishcookie.png",
+                "pic": "/public/img/products/crispy/fishcookie.png",
                 "title": "鹹蛋黃魚酥條",
                 "price": "$125",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 2003,
-                "pic": "/src/assets/img/products/crispy/shrimpcookie.png",
+                "pic": "/public/img/products/crispy/shrimpcookie.png",
                 "title": "鮮蝦餅-原味",
                 "price": "$150",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 2004,
-                "pic": "/src/assets/img/products/crispy/shrimpcookie1.png",
+                "pic": "/public/img/products/crispy/shrimpcookie1.png",
                 "title": "鮮蝦餅-海苔",
                 "price": "$150",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 2005,
-                "pic": "/src/assets/img/products/crispy/friedcookie.png",
+                "pic": "/public/img/products/crispy/friedcookie.png",
                 "title": "蝦薯條-番茄口味",
                 "price": "$150",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 2006,
-                "pic": "/src/assets/img/products/crispy/friedcookie1.png",
+                "pic": "/public/img/products/crispy/friedcookie1.png",
                 "title": "蝦薯條-起司口味",
                 "price": "$150",
                 "intro":"鹹蛋黃魚酥條，酥脆魚條融合濃郁鹹蛋黃風味，口感香濃綿密，適合零食或佐餐點心。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -88,20 +88,20 @@
         "items": [
             {
                 "id": 3001,
-                "pic": "/src/assets/img/products/deer/deer.png",
+                "pic": "/public/img/products/deer/deer.png",
                 "title": "原味鹿肉乾",
                 "price": "$200",
                 "intro":"嚴選新鮮鹿肉製作，低溫烘焙保留原汁原味，香嫩不膩，營養豐富，是健康零食首選！",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 3002,
-                "pic": "/src/assets/img/products/deer/spicydeer.png",
+                "pic": "/public/img/products/deer/spicydeer.png",
                 "title": "辣味鹿肉乾",
                 "price": "$200",
                 "intro":"嚴選新鮮鹿肉製作，低溫烘焙保留原汁原味，香嫩不膩，營養豐富，是健康零食首選！",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -112,20 +112,20 @@
         "items": [
             {
                 "id": 4001,
-                "pic": "/src/assets/img/products/taitung/brownsugar.png",
+                "pic": "/public/img/products/taitung/brownsugar.png",
                 "title": "黑糖小丸子",
                 "price": "$125",
                 "intro":"黑糖小丸子是以黑糖製成的甜點，口感Q彈香甜，適合搭配飲品或作為小吃享用。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 4002,
-                "pic": "/src/assets/img/products/taitung/plum.png",
+                "pic": "/public/img/products/taitung/plum.png",
                 "title": "暈船梅",
                 "price": "$60",
                 "intro":"暈船梅是台灣南投名產，以梅子醃漬入味，口感酸甜開胃，適合作為零食或伴手禮。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -136,83 +136,83 @@
         "items": [
             {
                 "id": 5001,
-                "pic": "/src/assets/img/products/sea/flyfish.png",
+                "pic": "/public/img/products/sea/flyfish.png",
                 "title": "飛魚翅",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5002,
-                "pic": "/src/assets/img/products/sea/grillsquid.png",
+                "pic": "/public/img/products/sea/grillsquid.png",
                 "title": "炭燒魷魚片",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5003,
-                "pic": "/src/assets/img/products/sea/squid.png",
+                "pic": "/public/img/products/sea/squid.png",
                 "title": "原味魷魚片",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5004,
-                "pic": "/src/assets/img/products/sea/spicysalmon.png",
+                "pic": "/public/img/products/sea/spicysalmon.png",
                 "title": "麻辣切片",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5005,
-                "pic": "/src/assets/img/products/sea/goldenfish.png",
+                "pic": "/public/img/products/sea/goldenfish.png",
                 "title": "黃金魚",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5006,
-                "pic": "/src/assets/img/products/sea/mayfish.png",
+                "pic": "/public/img/products/sea/mayfish.png",
                 "title": "綠島梅魚",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5007,
-                "pic": "/src/assets/img/products/sea/crab.png",
+                "pic": "/public/img/products/sea/crab.png",
                 "title": "蔥燒小螃蟹",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5008,
-                "pic": "/src/assets/img/products/sea/salmon.png",
+                "pic": "/public/img/products/sea/salmon.png",
                 "title": "鮭魚燒切片",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 5009,
-                "pic": "/src/assets/img/products/sea/shrimp.png",
+                "pic": "/public/img/products/sea/shrimp.png",
                 "title": "櫻花蝦",
                 "price": "$150",
                 "intro":"炭燒魷魚片香氣濃郁，口感酥脆，鹹香回甘，是解饞下酒的絕佳零食選擇。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
             
@@ -224,38 +224,38 @@
         "items": [
             {
                 "id": 6001,
-                "pic": "/src/assets/img/products/greenisland/john.png",
+                "pic": "/public/img/products/greenisland/john.png",
                 "title": "小卷醬",
                 "price": "$150",
                 "intro":"小卷醬是一種香濃美味的醬料，常搭配拌麵、拌飯，風味獨特，帶有鮮甜和鹹香的海味口感。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 6002,
-                "pic": "/src/assets/img/products/greenisland/john1.png",
+                "pic": "/public/img/products/greenisland/john1.png",
                 "title": "海鮮醬",
                 "price": "$150",
                 "intro":"小卷醬是一種香濃美味的醬料，常搭配拌麵、拌飯，風味獨特，帶有鮮甜和鹹香的海味口感。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 6003,
-                "pic": "/src/assets/img/products/greenisland/john2.jpg",
+                "pic": "/public/img/products/greenisland/john2.jpg",
                 "title": "椒麻辣椒醬",
                 "price": "$150",
                 "intro":"小卷醬是一種香濃美味的醬料，常搭配拌麵、拌飯，風味獨特，帶有鮮甜和鹹香的海味口感。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 6004,
-                "pic": "/src/assets/img/products/greenisland/fishsong.jpg",
+                "pic": "/public/img/products/greenisland/fishsong.jpg",
                 "title": "狗母魚魚鬆",
                 "price": "$175",
                 "intro":"小卷醬是一種香濃美味的醬料，常搭配拌麵、拌飯，風味獨特，帶有鮮甜和鹹香的海味口感。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -266,11 +266,11 @@
         "items": [
             {
                 "id": 7001,
-                "pic": "/src/assets/img/products/biscuit/biscuit.png",
+                "pic": "/public/img/products/biscuit/biscuit.png",
                 "title": "火燒島的餅-花生口味",
                 "price": "$300",
                 "intro":"火燒島的餅是金門特產，外皮酥脆、內餡香甜，融合古早味與創新口感，深受遊客喜愛。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -281,20 +281,20 @@
         "items": [
             {
                 "id": 8001,
-                "pic": "/src/assets/img/products/seaweed/seaweed.jpg",
+                "pic": "/public/img/products/seaweed/seaweed.jpg",
                 "title": "海草",
                 "price": "$250",
                 "intro":"海草酥是一款結合海草與酥皮製成的點心，口感酥脆，鹹香入味，營養又美味。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 8002,
-                "pic": "/src/assets/img/products/seaweed/seaweedd.png",
+                "pic": "/public/img/products/seaweed/seaweedd.png",
                 "title": "海草酥",
                 "price": "$250",
                 "intro":"海草酥是一款結合海草與酥皮製成的點心，口感酥脆，鹹香入味，營養又美味。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -305,20 +305,20 @@
         "items": [
             {
                 "id": 9001,
-                "pic": "/src/assets/img/products/coral/coral1.png",
+                "pic": "/public/img/products/coral/coral1.png",
                 "title": "黑糖桂花海燕窩",
                 "price": "$150",
                 "intro":"黑糖桂花海燕窩，融合珊瑚草，甜香滋補，清潤爽口，富含營養，滋養肌膚，提升健康。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             },
             {
                 "id": 9002,
-                "pic": "/src/assets/img/products/coral/coral.png",
+                "pic": "/public/img/products/coral/coral.png",
                 "title": "黑糖桂圓紅棗海燕窩",
                 "price": "$150",
                 "intro":"黑糖桂花海燕窩，融合珊瑚草，甜香滋補，清潤爽口，富含營養，滋養肌膚，提升健康。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]
@@ -329,11 +329,11 @@
         "items": [
             {
                 "id": 10001,
-                "pic": "/src/assets/img/products/dry-seafood/flyfishfood.png",
+                "pic": "/public/img/products/dry-seafood/flyfishfood.png",
                 "title": "飛魚乾(食材)",
                 "price": "$150",
                 "intro":"飛魚乾是將飛魚經曬乾處理，口感鹹香，常用於湯品或小吃，風味獨特。",
-                "content":"/src/assets/img/products/ingredients.png"
+                "content":"/public/img/products/ingredients.png"
 
             }
         ]

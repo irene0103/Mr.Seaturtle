@@ -2,7 +2,7 @@
   <div class="about">
     <h1>使用在地食材<br/>堅持最好品質。</h1>
     <div class="about-content">
-      <img src="@/assets/img/sea-turtle.png" alt="seaturtle">
+      <img src="/public/img/sea-turtle.png" alt="seaturtle">
       <div class="about-intro">
       <p>
         位於南寮漁港周邊的伴手禮名店─海龜先生，充滿童趣的外觀相當亮眼 使用在地食材，堅持最高品質還有食品衛生   
@@ -18,7 +18,7 @@
 
 <style lang="scss" scoped>
   .about{
-    background-image: url("@/assets/img/seaturtle-bg.png");
+    background-image: url("/public/img/seaturtle-bg.png");
     font-family: 'MyCustomFont', sans-serif;
     margin: auto;
     text-align: center;

@@ -1,7 +1,7 @@
 <template>
   <div class="delivery">
     <h1>運送方式</h1>
-    <img src="@/assets/img/deliveryrule.png" alt="delivery">
+    <img src="/public/img/deliveryrule.png" alt="delivery">
   </div>
 </template>
 <script>
