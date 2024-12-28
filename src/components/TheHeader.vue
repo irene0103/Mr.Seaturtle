@@ -8,6 +8,12 @@
               <p v-else>{{ item.showEnglish ? item.english : item.chinese }}</p>
             </router-link>
         </li>
+        <li class="member">
+          <router-link to="login"><img width="50" height="50" src="https://img.icons8.com/pulsar-color/50/turtle.png" alt="turtle"/></router-link>
+        </li>
+        <li class="cart">
+          <router-link to="cart"><img width="50" height="50" src="https://img.icons8.com/pulsar-color/50/wicker-basket.png" alt="wicker-basket"/></router-link>
+        </li>
       </ul>
     </nav>
   </div>

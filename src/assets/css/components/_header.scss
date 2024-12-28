@@ -15,6 +15,18 @@
       display: flex;
       align-items: center;
       padding: 10px 30px;
+      .member{
+        img{
+          vertical-align: middle;
+        }
+        margin-left: auto;
+      }
+      .cart{
+        img{
+          vertical-align: middle;
+        }
+        margin-left: 20px;
+      }
       a {
         position: relative;
         .logo {
@@ -43,6 +55,7 @@
             left: 25%;
             right: 10%;
           }
+          
         }
 
         &.router-link-active p {
