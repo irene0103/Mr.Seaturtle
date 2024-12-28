@@ -1,29 +1,12 @@
-# mr.seaturtle
+# 海龜先生伴手禮網站 
+[專案連結](https://mrseaturtle.netlify.app/) 
 
-This template should help get you started developing with Vue 3 in Vite.
+使用Vite開發，製作出一個伴手禮的電商網站  
 
-## Recommended IDE Setup
+## 功能特色  
+- 介紹伴手禮的特色商品  
+- 簡潔易懂的使用者介面  
+- 自動更新資料，確保資訊準確  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 使用技術  
+- **前端框架**: HTML, SCSS, Vue
