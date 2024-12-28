@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <h1>聯絡資訊</h1>
-    <hr width="90%"/>
+    <hr width="80%" color="#61ba56"/>
     <div class="contact-info">
       <div class="map">
         
@@ -52,6 +52,7 @@
 </script>
 <style lang="scss" scoped>
   .contact{
+    margin: 30px auto;
     h1{
       text-align: center;
       font-family: 'MyCustomFont', sans-serif;

@@ -61,7 +61,7 @@ import axios from 'axios';
 <style lang="scss"scoped>
 .product{
   width: 100%;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
   aside{

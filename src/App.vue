@@ -71,7 +71,7 @@ body{
   width: 100%;
   max-width: 1200px;
   margin:auto;
-  padding-top: 150px;
+  padding-top: 120px;
   position: relative;
 }
 .header {
@@ -85,7 +85,7 @@ body{
   bottom: 30px;
   right: 30px;
   color:rgb(127, 180, 136);
-  border: 1px solid rgb(217, 214, 214);
+  border: 1px solid #ffffff;
   border-radius: 50px;
   padding: 10px 12px;
   font-size: 24px;

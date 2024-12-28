@@ -9,7 +9,7 @@ const routes= [
     },
     {
       path: '/product',
-      redirect: '/product/machi' 
+      redirect: '/product/sea' 
     },
     {
       path: "/product/:category",
@@ -31,6 +31,16 @@ const routes= [
       path: "/contact",
       name: "contact",
       component: () => import("../views/ContactView.vue"),
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("../views/LoginView.vue"),
+    },
+    {
+      path: "/signup",
+      name: "signup",
+      component: () => import("../views/SignupView.vue"),
     },
   ];
 
