@@ -2,7 +2,7 @@
     <div class="login">
         <div class="signup">
             <h4>還沒有帳號嗎?</h4>
-            <router-link to="signup"><button>點我註冊</button></router-link>
+            <router-link to="/signup"><button>點我註冊</button></router-link>
         </div>
         <div class="login-info">
             <h4>Welcome , 歡迎</h4>
