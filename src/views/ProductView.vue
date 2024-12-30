@@ -2,16 +2,16 @@
   <div class="product">
     <aside>
       <ul>
-        <li><router-link :to="'/product/machi'">- 軟QQ麻糬</router-link></li>
-        <li><router-link :to="'/product/crispy'">- 咬一口酥脆</router-link></li>
-        <li><router-link :to="'/product/deer'">- 島嶼鹿鮮味</router-link></li>
-        <li><router-link :to="'/product/taitung'">- 台東必備品</router-link></li>
-        <li><router-link :to="'/product/sea'">- 大海的滋味</router-link></li>
-        <li><router-link :to="'/product/greenisland'">- 濃縮綠島味</router-link></li>
-        <li><router-link :to="'/product/biscuit'">- 隨手來一包</router-link></li>
-        <li><router-link :to="'/product/seaweed'">- 島民家常菜</router-link></li>
-        <li><router-link :to="'/product/coral'">- 福氣帶回家</router-link></li>
-        <li><router-link :to="'/product/dry-seafood'">- 島民季節選</router-link></li>
+        <li><router-link :to="'/product/machi'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>軟QQ麻糬</router-link></li>
+        <li><router-link :to="'/product/crispy'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>咬一口酥脆</router-link></li>
+        <li><router-link :to="'/product/deer'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>島嶼鹿鮮味</router-link></li>
+        <li><router-link :to="'/product/taitung'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>台東必備品</router-link></li>
+        <li><router-link :to="'/product/sea'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>大海的滋味</router-link></li>
+        <li><router-link :to="'/product/greenisland'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>濃縮綠島味</router-link></li>
+        <li><router-link :to="'/product/biscuit'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>隨手來一包</router-link></li>
+        <li><router-link :to="'/product/seaweed'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>島民家常菜</router-link></li>
+        <li><router-link :to="'/product/coral'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>福氣帶回家</router-link></li>
+        <li><router-link :to="'/product/dry-seafood'"><img width="30" height="30" src="https://img.icons8.com/color-pixels/30/turtle.png" alt="turtle"/>島民季節選</router-link></li>
       </ul>
     </aside>
     <div class="product-list">
@@ -86,6 +86,12 @@ export default {
           &.router-link-active {
             color: rgb(39, 82, 54);
             font-weight: bold;
+          }
+          img{
+            vertical-align:middle;
+            margin-right: 10px;
+            padding-bottom: 5px;
+            transform: scaleX(-1);
           }
         }
       }
