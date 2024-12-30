@@ -26,79 +26,85 @@
 </template>
 <script>
 import ProductList from '@/components/ProductList.vue';
-import axios from 'axios';
-  export default{
-    components:{
-      ProductList
-    },
-    props:['category'],
-    data() {
-      return {
-        productData:[],
-        categoryTitle:''
-      }
-    },
-    methods:{
-      async fetchData(){
-          const response = await axios.get("/data/product.json");
-            this.productData = await response.data;
-            console.log(this.productData);
-            
-        }
-      },
-    computed:{
-      filteredProducts() {
-      return this.productData.filter(item => item.category === this.category)
-      },
-     
-    },
-    mounted() {
-    this.fetchData();
+import { useProductStore } from '../store/product';
+
+export default {
+  components: {
+    ProductList
   },
-  
-  }
+  props: ['category'],
+  data() {
+    return {
+      categoryTitle: '',
+      productStore: [],
+    }
+  },
+  methods: {
+    fetchProducts() {
+      this.productStore.fetchProducts();
+    }
+  },
+  computed: {
+    filteredProducts() {
+      return this.productStore.product.filter(item => item.category === this.category)
+    }
+
+  },
+  created() {
+    this.productStore = useProductStore();
+    this.fetchProducts();
+
+  },
+
+}
 </script>
-<style lang="scss"scoped>
-.product{
+<style lang="scss" scoped>
+.product {
   width: 100%;
   margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
-  aside{
+
+  aside {
     width: 20%;
     height: 500px;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 3px 3px 15px #00000040;
     position: sticky;
-    top:130px;
-    ul{
+    top: 130px;
+
+    ul {
       padding: 15px 20px;
       line-height: 2;
       font-size: 20px;
-      li{
-        a{
-          color:rgb(40, 110, 64);
+
+      li {
+        a {
+          color: rgb(40, 110, 64);
+
           &.router-link-active {
-            color:rgb(39, 82, 54);
+            color: rgb(39, 82, 54);
             font-weight: bold;
           }
         }
       }
     }
   }
-  .product-list{
+
+  .product-list {
     width: 70%;
-    .breadcrumb{
+
+    .breadcrumb {
       margin-left: 20px;
     }
+
     // .main-product{
     // display: grid;
     // grid-template-columns: repeat(3,1fr);
     // justify-content:center;
     // }
-    
+
   }
 }
-
 </style>
