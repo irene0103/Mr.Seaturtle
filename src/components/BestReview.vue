@@ -18,7 +18,7 @@
   </template>
   <style lang="scss" scoped>
     .review{
-        // border: 1.8px solid #b4b4b4;
+        width: 190px;
         box-shadow: 3px 4px 7px #0000003d;
         border-radius: 10px;
         padding: 20px;

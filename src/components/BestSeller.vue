@@ -9,6 +9,7 @@
 </template>
 <style lang="scss" scoped>
 .product {
+  width: 190px;
   border: 1.8px solid #b4b4b4;
   box-shadow: 3px 4px #0000001d;
   border-radius: 10px;

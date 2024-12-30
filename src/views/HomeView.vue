@@ -61,40 +61,45 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/css/base/color.scss";
 
-.bgc-circle{
-    background-color: #def0d6;
-    width: 1000px;
-    height: 1000px;
-    border-radius: 50%;
-    position: absolute;
-    right: -400px;
-    top:-500px;
-    z-index: -10;
-  }
-.intro{
-    button{
-      width: 200px;
-      background-color: #C8E4EC;
-      padding: 5px 20px;
-      border-radius:20px;
-      font-size: 20px;
-      margin: 0 150px;
-      cursor: pointer;
-      a{
-        color:$dark-color;
-      }
-    }
+.bgc-circle {
+  background-color: #def0d6;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  position: absolute;
+  right: -400px;
+  top: -500px;
+  z-index: -10;
 }
-.news{
+
+.intro {
+  button {
+    width: 200px;
+    background-color: #C8E4EC;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 0 150px;
+    cursor: pointer;
+
+    a {
+      color: $dark-color;
+    }
+  }
+}
+
+.news {
   margin: 90px auto;
   text-align: center;
   position: relative;
-  h3{
+
+  h3 {
     margin: 10px auto;
     position: relative;
     width: fit-content;
-    &::after{
-      content:'';
+
+    &::after {
+      content: '';
       position: absolute;
       left: 0;
       right: 0;
@@ -105,10 +110,12 @@ export default {
       transform: rotate(-2deg);
     }
   }
-  .slide{
+
+  .slide {
     width: 900px;
     margin: 50px auto;
   }
+
   // .wave-container{
   //     background-image: url("@/assets/img/wave.png");
   //     background-size: cover;
@@ -122,16 +129,18 @@ export default {
   //   padding:60px;
   //   }
 }
-  .best-seller{
-    padding-top:100px;
-    text-align: center;
-   
-  h3{
+
+.best-seller {
+  padding-top: 100px;
+  text-align: center;
+
+  h3 {
     margin: 10px auto;
     position: relative;
     width: fit-content;
-    &::after{
-      content:'';
+
+    &::after {
+      content: '';
       position: absolute;
       left: 0;
       right: 0;
@@ -142,27 +151,33 @@ export default {
       transform: rotate(-2deg);
     }
   }
-  .best-product{
+
+  .best-product {
     width: 70%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content:center;
-    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
 
   }
 }
-.review{
-    margin: 100px auto;
+
+.review {
+  margin: 100px auto;
   text-align: center;
-    h4{
+
+  h4 {
     font-size: 20px;
   }
-  h3{
+
+  h3 {
     margin: 10px auto;
     position: relative;
     width: fit-content;
-    &::after{
-      content:'';
+
+    &::after {
+      content: '';
       position: absolute;
       left: 0;
       right: 0;
@@ -173,51 +188,57 @@ export default {
       transform: rotate(-2deg);
     }
   }
-  .best-review{
+
+  .best-review {
     width: 90%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content:center;
-    margin:30px auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    margin: 30px auto;
   }
 }
-.subscribe{
+
+.subscribe {
+  width: 70%;
+  margin: auto;
+  background-color: #FFFFE3;
+  border-radius: 80px;
+  box-shadow: 2px 2px #0000001d;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+
+  p {
+    margin: 10px 0;
+  }
+
+  .enter-email {
+    margin: 20px 0;
+    border: 1px solid $border-color;
+    border-radius: 50px;
+    margin: auto;
     width: 70%;
-    margin:auto;
-    background-color: #FFFFE3;
-    border-radius: 80px;
-    box-shadow: 2px 2px #0000001d;
-    text-align: center;
-    padding: 30px 0;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: -30px;
-    p{
-      margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+
+    input {
+      width: 100%;
+      padding-left: 15px;
+      font-size: 15px;
     }
-    .enter-email{
-      margin: 20px 0;
-      border: 1px solid $border-color;
+
+    button {
+      background: #F5F4C3;
       border-radius: 50px;
-      margin: auto;
-      width: 70%;
-      display: flex;
-      justify-content: space-between;
-      z-index: 50;
-      input{
-        width: 100%;
-        padding-left: 15px;
-        font-size: 15px;
-      }
-      button{
-        background: #F5F4C3;
-        border-radius: 50px;
-        padding: 8px 15px;
-        margin: 5px;
-        font-weight: bold;
-        cursor: pointer;
-      }
+      padding: 8px 15px;
+      margin: 5px;
+      font-weight: bold;
+      cursor: pointer;
     }
   }
+}
 </style>
