@@ -46,7 +46,7 @@ export default {
   },
   computed: {
     filteredProducts() {
-      return this.productStore.product.filter(item => item.category === this.category)
+      return this.productStore.product.filter(item =>item.category === this.category)
     }
 
   },

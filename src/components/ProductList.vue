@@ -6,7 +6,7 @@
         <p>{{ item.price }}</p>
         <div class="check-button">
             <button class="check" @click="openBox(item.id)"><i class="fa-solid fa-magnifying-glass"></i>查看</button>
-            <button class="add-cart"><i class="fa-solid fa-cart-shopping"></i>加入購物車</button>
+            <button class="add-cart" @click="success"><i class="fa-solid fa-cart-shopping"></i>加入購物車</button>
         </div>
     </div>
 </div>
@@ -26,7 +26,7 @@
                     <p>{{ popupData.intro }}</p>
                     <input type="number" min="1" value="1">
                     <p>{{ popupData.price }}</p>
-                    <button class="add-cart"><i class="fa-solid fa-cart-shopping"></i>加入購物車</button>
+                    <button class="add-cart" @click="success"><i class="fa-solid fa-cart-shopping"></i>加入購物車</button>
                 </div>
             </div>
             <hr />
@@ -203,7 +203,12 @@ export default {
         close() {
             this.activeId = NaN;
         },
-        
+        success() {
+      this.$swal({
+        icon: 'success',
+        text: '加入購物車',
+      });
+    },
         
     },
     computed: {

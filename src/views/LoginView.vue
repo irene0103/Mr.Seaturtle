@@ -16,13 +16,14 @@
 <style lang="scss" scoped>
     .login{
         width: 70%;
-        border: 2px solid #E1FCD5;
+        border: 3px solid #E1FCD5;
         border-radius: 20px;
         display: flex;
         margin: 50px auto;
         .signup{
             width: 35%;
             background-color: #E1FCD5;
+            background-image: url(/img/seaturtle-bg.png);
             border-radius: 18px;
             padding: 30px;
             text-align: center;

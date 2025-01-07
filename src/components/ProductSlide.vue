@@ -53,7 +53,9 @@
   background: none;
   color: #fff;
 }
-
+:deep(.swiper-pagination-bullet.swiper-pagination-bullet){
+  background: #59b277;
+}
   </style>
   <script>
     import { Swiper, SwiperSlide } from 'swiper/vue';

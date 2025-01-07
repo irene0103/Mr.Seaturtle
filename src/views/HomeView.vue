@@ -37,8 +37,8 @@
         <h3>訂閱我們</h3>
         <p>please subscribe us and get the latest discount!</p>
         <div class="enter-email">
-          <input type="email" placeholder="請輸入Email...">
-          <button>Subscribe</button>
+          <input type="email" v-model="email" placeholder="請輸入Email...">
+          <button @click="subscribe">Subscribe</button>
         </div>
       </div>
     </section>
@@ -56,7 +56,27 @@ export default {
     BestSeller,
     BestReview
   },
-};
+  data() {
+    return {
+      email: '',
+    };
+  },
+  methods: {
+    subscribe() {
+      if(this.validateEmail(this.email)){
+        this.$swal('訂閱成功', '感謝您的訂閱', 'success');
+        this.email = '';
+    }else{
+      this.$swal('訂閱失敗', '請輸入正確的Email', 'error');
+      this.email = '';
+    }
+  },
+  validateEmail(email) {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  },
+}
+}
 </script>
 <style lang="scss" scoped>
 @import "@/assets/css/base/color.scss";
