@@ -32,17 +32,19 @@
   margin-right: auto;
 }
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   display: flex;
+  font-size: 18px;
   justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-wrap: wrap;
   .slide-content{
     width:45%;
     padding: 5px 15px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    animation: fadeIn 1s ease-in-out both;
     h2{
       font-size: 50px;
     }
@@ -67,6 +69,7 @@
       vertical-align: baseline;
     }
   }
+  
 }
 
 .swiper-button-next{
@@ -84,6 +87,16 @@
 .swiper-button-prev{
   display:none;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
   </style>
   <script>
     import { Swiper, SwiperSlide } from 'swiper/vue';
